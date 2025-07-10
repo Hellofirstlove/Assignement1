@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Assignment</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles/first.css">
 </head>
+
 <body class="open-sans-normal">
-    <header class="header">
+    <header class="header"><!--For First Page-->
         <nav>
             <h3 class="nav-title">LOGO</h3>
             <ul>
@@ -18,21 +21,143 @@
             </ul>
         </nav>
         <div class="banner">
-            <h4 class="banner-title">Cool Dark UI Template for <br />Webflow Agencies! <br /><button class="btn-primary">Stay Focused</button></h4>
+            <h4 class="banner-title">Cool Dark UI Template for <br />Webflow Agencies! <br /><button
+                    class="btn-primary">Stay Focused</button></h4>
         </div>
     </header>
     <main>
-        <div class="banana">
+        <div class="banana"><!--For Second Page and "See it action"-->
             <div class="banana-content">
                 <h1 class="banana-title">See It in Action</h1>
-                <p class="banana-description">Explore the live preview and imagine your <br \>brand in this bold new look.</p>
+                <p class="banana-description">Explore the live preview and imagine your <br \>brand in this bold new
+                    look.</p>
                 <button class="btn-primary">Launch Live Preview</button>
             </div>
             <img class="banana-pic" src="Assets/wc-mini.png" alt="">
         </div>
-    </main>
-    <footer>
+        <section class="about background-bg"><!--For Third Page and "Joining Users"-->
+            <h3 class="section-title">Joined Thousand of Productive Users</h3>
+            <div class="about-items">
+                <div class="about-item">
+                    <p class="item-title">50K</p>
+                    <p class="item-description">Active Users</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">2M+</p>
+                    <p class="item-description">Focus Sessions</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">95%</p>
+                    <p class="item-description">Satisfaction Rate</p>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials"><!--For forth Page and "Users say"-->
+            <h2>What our users say</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="stars">
+                        <img src="Assets/icon-star.png" alt="Star" />
+                        <img src="Assets/icon-star.png" alt="Star" />
+                        <img src="Assets/icon-star.png" alt="Star" />
+                        <img src="Assets/icon-star.png" alt="Star" />
+                        <img src="Assets/icon-star.png" alt="Star" />
+                    </div>
+                    <h3>Loved by Designers</h3>
+                    <p>This template instantly leveled up our presence.” ~ Studio Vertex</p>
+                    <div class="reviewer">
+                        <img src="Assets/avatar.png" alt="Reviewer" />
+                        <div>
+                            <span>Reviewer name<br \></span>
+                            <span class="date">Date</span>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="card">
+                    <div class="stars">
+                        <img src="Assets/icon-star.png" alt="Star" />
+                        <img src="Assets/icon-star.png" alt="Star" />
+                        <img src="Assets/icon-star.png" alt="Star" />
+                        <img src="Assets/icon-star.png" alt="Star" />
+                        <img src="Assets/icon-star.png" alt="Star" />
+                    </div>
+                    <h3>Loved by Designers</h3>
+                    <p>This template instantly leveled up our presence.” ~ Studio Vertex</p>
+                    <div class="reviewer">
+                        <img src="Assets/avatar.png" alt="Reviewer" />
+                        <div>
+                            <span>Reviewer name<br \></span>
+                            <span class="date">Date</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="stars">
+                        <img src="Assets/icon-star.png" alt="Star" />
+                        <img src="Assets/icon-star.png" alt="Star" />
+                        <img src="Assets/icon-star.png" alt="Star" />
+                        <img src="Assets/icon-star.png" alt="Star" />
+                        <img src="Assets/icon-star.png" alt="Star" />
+                    </div>
+                    <h3>Loved by Designers</h3>
+                    <p>This template instantly leveled up our presence.” ~ Studio Vertex</p>
+                    <div class="reviewer">
+                        <img src="Assets/avatar.png" alt="Reviewer" />
+                        <div>
+                            <span>Reviewer name<br \></span>
+                            <span class="date">Date</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="focus-section"><!--Fifth Page ans "Ready Focus"-->
+            <div class="content">
+                <h1>Ready to focus better</h1>
+                <p>This template instantly leveled up our presence.” ~ Studio Vertex</p>
+                <a href=""><button class="btn-primary">Get Started Free</button></a>
+            </div>
+            <div class="image-wrapper">
+                <img src="Assets/wc-big.png" alt="" />
+            </div>
+        </section>
+        <section class="hello-first-love"><!--Six Page and "Form"-->
+            <div class="hello-second-love">
+                <div class="hello-third-love">
+                    <h1>Let's Get in <br>Touch</h1>
+                </div>
+                <div class="hello-fourth-love">
+                    <form class="hello-fifth-love">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="example@email.com" required />
+
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="full name" required />
+
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="write your message...."></textarea>
+
+                        <button class="btn-primary" type="submit">Get in Touch</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer><!--Last and "Footer"-->
+        <div class="container">
+            <div class="logo">LOGO</div>
+            <p class="description banana-description">
+                Ready to elevate your online presence? Contact us today to discuss your project
+                and discover how we can bring your vision to life.
+            </p>
+        </div>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">How it Works</a>
+        <a href="#">Services</a>
     </footer>
 </body>
+
 </html>

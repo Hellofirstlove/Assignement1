@@ -36,8 +36,14 @@ nav ul li{
     border: none;
     padding: 12px 36px;
     border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
-
+.btn-primary:hover {
+  background-color: #372fcf; 
+  transform: scale(1.05);   
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); 
+}
 /* Main Body */
 .dark-2{
     color: #252432;
@@ -87,4 +93,225 @@ nav ul li{
 }
 .banana-description{
     color: #7a7a81;
+}
+.section-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 2px;
+}
+.background-bg{
+    background-color: #e8eafc;
+}
+.about{
+    border-radius: 10px;
+    max-width: 1140px;
+    text-align: center;
+    margin: 120px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.item-description{
+    color: #7a7a81;
+    margin-top: 0px;
+}
+.item-title{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+/* For Review */
+.testimonials{
+  padding: 40px 20px;
+  text-align: center;
+}
+.testimonials h2{
+  font-size: 32px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card{
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  text-align: left;
+}
+.stars{
+  margin-bottom: 10px;
+}
+.stars img{
+  width: 16px;
+  height: 16px;
+  margin-right: 2px;
+}
+.card h3{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.card p{
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+.reviewer{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.reviewer img{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.reviewer span{
+  display: block;
+  font-size: 14px;
+  color: #777;
+}
+.date{
+  font-size: 12px;
+}
+/* For Focus */
+.focus-section {
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.focus-section .content {
+  margin-bottom: 40px;
+}
+
+.focus-section h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 15px;
+}
+
+.focus-section p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.image-wrapper img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}   
+/* Form */
+.hello-first-love {
+  width: 100%;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hello-second-love {
+  display: flex;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px;
+  gap: 50px;
+}
+.hello-third-love h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.2;
+}
+
+.hello-fourth-love {
+  flex: 1;
+}
+
+.hello-fifth-love {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hello-fifth-love label {
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+}
+.hello-fifth-love input{
+      width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+.hello-fifth-love textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.hello-fifth-love textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+/* For Footer */
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.logo {
+  font-size: 64px;
+  font-weight: 700;
+  color: #4b4bff;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.description {
+  max-width: 600px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-top: 1px solid #eee;
+}
+
+footer a {
+  text-decoration: none;
+  color: #6c6c8f;
+  margin: 0 15px;
+  font-size: 14px;
+  transition: color 0.3s;
 }
